@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Lexend+Deca:wght@600&family=Manrope&family=Nosifer&family=Orienta&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #202020;
+}
+
+.kutular{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #21242b;
+    margin: 0 20px;
+    border-radius: 10px;
+    min-width: 200px;
+    border: 1px solid #18f08b;
+    padding: 20px;
+}
+
+.counter{
+    margin: 0 20px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    min-width: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box i{
+    font-size: 30px;
+    color: #18f08b;;
+}
